@@ -27,6 +27,11 @@ def get_img() -> np.ndarray:
 
 
 def save_prediction(image_name: str, pred: str):
+	'''
+		Parameters: 
+			image_name (str): name of the file of the prediction
+			pred (str): the predicted class for the image
+	'''
 	pred_info = {
 		f"{image_name}": f"{pred}"
 	}
@@ -36,8 +41,7 @@ def save_prediction(image_name: str, pred: str):
 
 
 if __name__ == "__main__":
-
 	model = load_model()
 	img = get_img()
 	pred = model.predict(np.reshape(img, (1, 28, 28)))[0]
-	save_prediction(get_img_path(), pred)
+	save_prediction(sys.argv[1], pred)

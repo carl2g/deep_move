@@ -5,7 +5,7 @@ RUN pip install -r /requirement.txt
 
 COPY deep_move /deep_move
 COPY dataset /dataset
-COPY test_example /test_example
+COPY examples /examples
 
 WORKDIR /deep_move
 

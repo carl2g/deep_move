@@ -1,7 +1,7 @@
 FROM python:3.9-slim
 
-COPY requierments.txt /requierments.txt
-RUN pip install -r /requierments.txt
+COPY requirement.txt /requirement.txt
+RUN pip install -r /requirement.txt
 
 COPY deep_move /deep_move
 COPY dataset /dataset

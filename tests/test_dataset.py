@@ -1,6 +1,7 @@
 import unittest
 from deep_move.dataset import get_dataset
 
+
 class TestDataset(unittest.TestCase):
 
 	def test_feature_shape(self):

@@ -1,0 +1,13 @@
+version: v1.0
+name: Docker
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: test
+    task:
+      jobs:
+        - name: launch_test
+          commands:
+            - ./bin/test.sh

@@ -2,9 +2,9 @@ import sys
 import os
 import numpy as np
 import json
-from model import load_model
 from skimage import io
-from conf import config
+from .model import load_model
+from .conf import config
 
 
 def get_img_path() -> str:

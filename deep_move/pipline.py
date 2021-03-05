@@ -20,7 +20,7 @@ def reshape_input(x: np.ndarray):
 
 def get_pipline():
 	'''
-		Create the pipline for the data
+		Create the pipline for the dataset
 		Returns:
 			The a Sklearn pipline 
 	'''

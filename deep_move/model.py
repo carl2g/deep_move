@@ -1,9 +1,8 @@
 import pickle
-import pickle
 import sklearn
 from typing import Union
 from sklearn.neural_network import MLPClassifier
-from conf import config
+from .conf import config
 
 
 SkLearnModel = Union[MLPClassifier]

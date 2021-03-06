@@ -7,6 +7,6 @@ COPY deep_move /deep_move
 COPY dataset /dataset
 COPY examples /examples
 
-WORKDIR /deep_move
+WORKDIR /
 
-CMD python train.py
+CMD python /deep_move/train.py

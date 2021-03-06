@@ -13,3 +13,6 @@ To use the model follows the steps:
 - launch ./bin/predict.sh your_image_name.png
 
 If successful you should have the result of the prediction in the file named prediction.json at the root of the repository.
+
+## Testing
+If you want to launch the test on your machine run ./bin/test.sh

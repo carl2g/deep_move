@@ -15,4 +15,4 @@ To use the model follows the steps:
 If successful you should have the result of the prediction in the file named prediction.json at the root of the repository.
 
 ## Testing
-If you want to launch the test on your machine run ./bin/test.sh
+If you want to launch the tests on your machine run ./bin/test.sh
